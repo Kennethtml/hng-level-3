@@ -1,0 +1,17 @@
+.shop{
+    padding-block: 43px 53px;
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59.9px;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(29.2rem,1fr));
+        gap: 2.4rem;
+        overflow: hidden;
+    }
+}

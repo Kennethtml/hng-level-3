@@ -1,0 +1,99 @@
+footer{
+     background: #000;
+     padding-block: 58px 37px;
+
+    .footer{
+        color: #fff;
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        grid-template-rows: repeat(5,1fr);
+        column-gap: min(200px, 18vw);
+        align-content: space-between;
+        // border: 1px solid #fff;
+         @media(max-width:900px) {
+          column-gap:12rem;
+        }
+         @media(max-width:800px) {
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(5,min-content);
+         justify-items: center;
+        
+         row-gap: 40px;
+        }
+   
+    .logo{
+        grid-column: 1/2;
+        width: 233px;
+        height: 40px;
+
+         @media(max-width:800px) {
+          grid-row: 1/2;
+        }
+
+    }
+    &__navigation{
+         grid-column: 2/3;
+        display: flex;
+        
+       
+        max-width: 69.8rem;
+        justify-content: space-between;
+        grid-row: 1/5;
+        // border: 1px solid #fff;
+   
+
+        @media(max-width:800px) {
+           flex-direction: column;
+           align-items: center;
+           gap: 35px;
+            grid-column:1/-1;
+            grid-row: 2/4;
+        }
+
+        &>*{
+            text-align: center;
+            h4{
+                margin-bottom: 23px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            p{
+                color: #F1F3F9; 
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 35px;
+            }
+            p:not(:last-child){
+              margin-bottom: 16px; 
+              
+            }
+        }
+    }
+    &__social-links{
+        display: flex;
+        gap: 36px;
+        grid-row: 3/4;
+
+        @media(max-width:800px){
+            grid-row: 4/5;
+        }
+            //  border: 1px solid #fff;
+             align-self: end;
+        img{
+            width: 18px;
+            height: 18px;
+        }
+
+    }
+    &__copyright{
+        grid-row: 5/-1;
+        p{
+           font-size: 16px;
+     font-weight: 400;
+     margin-top: 35px;
+       }
+        
+
+    }
+}
+}

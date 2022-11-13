@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+font-family: 'Red Rose', cursive;
+}
+html{
+  font-size: 62.5%;
+
+  @media(max-width:1100px){
+    font-size: 58%;
+  }
+}
+:root{
+  --color-primary:#A02279; 
+  --color-fade:#D7D7D7;
+
+}
+
+li{
+  list-style: none;
+}
+.btn{
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 27px;
+}
