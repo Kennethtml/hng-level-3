@@ -1,6 +1,10 @@
 import React from "react";
 
 import "./header.scss";
+import hero1 from "../../assets/hero-1.jpg"
+import hero2 from "../../assets/hero-2.jpg";
+import hero3 from "../../assets/hero-3.jpg";
+import hero4 from "../../assets/hero-4.jpg";
 
 function Header() {
   return (
@@ -23,10 +27,18 @@ function Header() {
         </div>
         <div className="header__body-hero">
           <div className="hero__container">
-            <div className="hero__container-image img-1"></div>
-            <div className="hero__container-image img-2"></div>
-            <div className="hero__container-image img-3"></div>
-            <div className="hero__container-image img-4"></div>
+            <div className="hero__container-image img-1">
+              <img src={hero1} alt="hero image" />
+            </div>
+            <div className="hero__container-image img-2">
+              <img src={hero2} alt="hero image" />
+            </div>
+            <div className="hero__container-image img-3">
+              <img src={hero3} alt="hero image" />
+            </div>
+            <div className="hero__container-image img-4">
+              <img src={hero4} alt="hero image" />
+            </div>
           </div>
         </div>
       </div>
