@@ -106,5 +106,13 @@
     &__footer{
         padding: 20px;
         background: var(--color-primary);
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap:min(12vw,26.4rem);
+
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
     }
 }

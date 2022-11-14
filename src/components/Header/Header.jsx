@@ -5,6 +5,9 @@ import hero1 from "../../assets/hero-1.jpg"
 import hero2 from "../../assets/hero-2.jpg";
 import hero3 from "../../assets/hero-3.jpg";
 import hero4 from "../../assets/hero-4.jpg";
+import mbtoken from "../../assets/mbtoken.svg"
+import metamask from "../../assets/metamask.svg"
+import opensea from "../../assets/opensea.svg"
 
 function Header() {
   return (
@@ -42,7 +45,9 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="header__footer"></div>
+      <div className="header__footer">
+        <img src={mbtoken} alt="mb token logo" /><img src={metamask} alt="metamask logo" /><img src={opensea} alt="open sea logo" />
+      </div>
     </header>
   );
 }
