@@ -6,5 +6,9 @@
     max-width: 88%;
      margin-inline: auto;
     //  position: relative;
+
+    @media(max-width:600px){
+      max-width: 92%;
+    }
   }
 }
