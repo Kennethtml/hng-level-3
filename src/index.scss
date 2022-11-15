@@ -17,11 +17,18 @@ html{
 :root{
   --color-primary:#A02279; 
   --color-fade:#D7D7D7;
+  --text-black:#434343;
+     --border-color:#CFD8DC;
 
 }
 
 li{
   list-style: none;
+}
+a{
+ text-decoration: none; 
+ color:var(--text-black)
+
 }
 .btn{
   border-radius: 5px;

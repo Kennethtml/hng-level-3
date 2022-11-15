@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./nav.scss"
 import logo from "../../assets/meta-logo.svg"
 import {GiHamburgerMenu} from "react-icons/gi"
@@ -8,8 +8,10 @@ import { ModalContext } from '../../utils/Modalcontext'
 import { NavLink } from 'react-router-dom'
 
 function Nav() {
-  const[toggle,setToggle]=useState(false)
-const{setIsModalOpen}=useContext(ModalContext)
+ 
+const{setIsModalOpen,toggle,setToggle}=useContext(ModalContext)
+
+
   return (
     <nav>
       <div className="nav wrapper">
