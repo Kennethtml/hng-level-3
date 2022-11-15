@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.scss"
-import home1 from '../../assets/home-1.jpg'
+import home1 from '../../assets/about-image.png'
 import home2 from "../../assets/home-2.jpg";
 import home3 from "../../assets/home-3.jpg";
 
@@ -19,9 +19,8 @@ function About() {
         <button className="btn">Learn more</button>
       </div>
       <div className="about__images">
-        <img src={home1} className="about-1" alt="" />
-        <img src={home2} className="about-2" alt="" />
-        <img src={home3} className="about-3" alt="" />
+        <img src={home1} className="about-1" alt="about" />
+       
       </div>
         </div>
     </section>

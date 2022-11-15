@@ -8,8 +8,10 @@ function Home() {
 
   const {  setToggle } = useContext(ModalContext);
   useEffect(() => {
+     window.scrollTo(0, 0);
     setToggle(false);
   }, []);
+  
   return (
     <>
       <Header />

@@ -9,6 +9,7 @@ import location from "../../src/assets/setting-5.svg"
 function Places() {
    const { setToggle } = useContext(ModalContext);
    useEffect(() => {
+     window.scrollTo(0, 0);
      setToggle(false);
    }, []);
   return (
@@ -45,7 +46,7 @@ function Places() {
           <img src={location} alt="locaion" />
         </div>
       </div>
-      <div className="wrapper">
+      <div className="shop wrapper">
         <div className="shop__cards">
           {shopData2.map((shopItem, idx) => {
             return <ShopCard key={idx} shopItem={shopItem} />;

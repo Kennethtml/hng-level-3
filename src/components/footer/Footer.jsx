@@ -11,7 +11,7 @@ function Footer() {
 <div className="footer wrapper">
 
       <div className="logo">
-        <img src={logo} alt="" />
+        <img src={logo} alt="meta" />
       </div>
       <div className="footer__navigation">
         <div className="footer__navigation-community">
@@ -22,18 +22,18 @@ function Footer() {
           <p>Discord</p>
         </div>
         <div className="footer__navigation-places">
-          <h4>Community</h4>
-          <p>NFT</p>
-          <p>Tokens</p>
-          <p>Landlords</p>
-          <p>Discord</p>
+          <h4>Places</h4>
+          <p>Castle</p>
+          <p>Farm</p>
+          <p>Beaches</p>
+          <p>Learn more</p>
         </div>
         <div className="footer__navigation-about">
-          <h4>Community</h4>
-          <p>NFT</p>
-          <p>Tokens</p>
-          <p>Landlords</p>
-          <p>Discord</p>
+          <h4>About us</h4>
+          <p>Road map</p>
+          <p>Creators</p>
+          <p>Careers</p>
+          <p>Contact us</p>
         </div>
       </div>
       <div className="footer__social-links">
@@ -42,7 +42,7 @@ function Footer() {
         <img src={twitter} alt="" />
       </div>
       <div className="footer__copyright">
-        <p>c 2022 metaBnB</p>
+        <p>&copy; 2022 Metabnb</p>
       </div>
 </div>
     </footer>
