@@ -1,8 +1,6 @@
 import React from 'react'
 import "./about.scss"
 import home1 from '../../assets/about-image.png'
-import home2 from "../../assets/home-2.jpg";
-import home3 from "../../assets/home-3.jpg";
 
 function About() {
   return (
