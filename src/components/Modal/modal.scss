@@ -64,10 +64,21 @@
 
         .wallet{
             padding: 12px 24px;
+           
             display: flex;
             justify-content: space-between;
+            align-items: center;
             border: 1px solid var(--border-color);
             border-radius: 12px;
+
+            img{
+                 height: 44px;
+                 width: 152px;
+            }
+            .arrow{
+                width: 20px;
+                height: 20px;
+            }
         }
     }
 

@@ -15,7 +15,7 @@ function Modal() {
         <div className="modal__content">
           <div className="modal__content-title">
             <h3>Connect Wallet</h3>
-            <button className="btn"onClick={()=>setIsModalOpen(false)}>
+            <button className="btn" onClick={() => setIsModalOpen(false)}>
               <img src={close} alt={close} />
             </button>
           </div>
@@ -24,12 +24,12 @@ function Modal() {
             <div className="wallet">
               <img src={metamask} alt="meta mask logo" />
 
-              <img src={rightArr} alt="right arrow" />
+              <img className="arrow" src={rightArr} alt="right arrow" />
             </div>
             <div className="wallet">
               <img src={walletConnect} alt="wallet connect logo" />
 
-              <img src={rightArr} alt="right arrow" />
+              <img className="arrow" src={rightArr} alt="right arrow" />
             </div>
           </div>
         </div>
